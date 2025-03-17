@@ -7,7 +7,7 @@ Components Used:
 4. DC Motors
 5. Power Supply
 6. USB cable
-7. 4 Wheels
+7. Wheels
 8. RC Car Chassis
 
 This program uses rule based algorithm that operates on the basic data gathered by the sensors. 
