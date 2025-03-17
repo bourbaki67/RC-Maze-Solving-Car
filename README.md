@@ -13,3 +13,10 @@ Components Used:
 This program uses rule based algorithm that operates on the basic data gathered by the sensors. 
 Then the distance taken observed is compared to the pre defined threshold of 15cm (wall_distance 15)
 and proceeds to take action depending on the given case.
+
+The order of priority is:
+1. Move forward if no obstacle is detected.
+2. Move right if the front is unavailable.
+3. If both options are not viable then, turn left.
+
+The program continuously loops, and constantly makes real-time decisions.
